@@ -10,7 +10,7 @@ const Table = ({ users }) => {
       <table className="table center">
         <thead>
           <tr>
-            <th
+            <th className = "blue"
               scope="col"
               onClick={() => {
                 const usersCopy = [...users];
@@ -29,8 +29,7 @@ const Table = ({ users }) => {
                 });
 
                 updateSortedUsers(updateSort);
-              }}
-            >
+              }}>
               First
             </th>
             <th scope="col">Last</th>

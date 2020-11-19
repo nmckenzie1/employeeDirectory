@@ -46,4 +46,7 @@
   }
   tr:nth-child(2n) { 
     background-color: grey;
-   }    
+   }  
+   .blue {
+     color: blue;
+   }  

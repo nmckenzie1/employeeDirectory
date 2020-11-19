@@ -14,10 +14,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Character Directory</h1>
+      <h1>Employee Directory</h1>
       <p>
-        To filter by first name, please begin your search in the user input
-        below
+        Search by first name: 
       </p>
       <FilterInput users={initialUsers} updateUsers={updateUsersToRender} />
       <Table users={usersToRender} />
